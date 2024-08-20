@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <title>Gogaga Holidays</title>
+
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="index.js" defer></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/bb80f6ffbf.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navbar starts -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-color">
+    <a class="navbar-brand skeleton" href="#">
+      <img class="banner-logo ml-0"
+        src="https://res.cloudinary.com/dsovyumur/image/upload/v1710767536/gogaga_logo-removebg-preview_gyjfuo.png" />
+    </a>
+    <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <label class="hamburger">
+        <input type="checkbox">
+        <svg viewBox="0 0 32 32">
+          <path class="line line-top-bottom"
+            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+          </path>
+          <path class="line" d="M7 16 27 16"></path>
+        </svg>
+      </label>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link nav-items" href="#HomeSection" id="navbaritem">
+          <h1 class="nav-item-colour skeleton">Packages</h1>
+        </a>
+        <a class="nav-link nav-items" href="#HomeSection" id="navbaritem">
+          <h1 class="nav-item-colour skeleton">Tours</h1>
+        </a>
+        <a class="nav-link nav-items" href="#HomeSection" id="navbaritem">
+          <h1 class="nav-item-colour skeleton">Help</h1>
+        </a>
+        <a class="nav-link nav-items" href="#HomeSection" id="navbaritem">
+          <div class="d-flex skeleton">
+            <h1 class="nav-item-colour">Membership</h1>
+            <img class="membership-icon"
+              src="https://res.cloudinary.com/drkgjrufs/image/upload/v1712061538/gem_uys2rl.png" />
+          </div>
+        </a>
+        <a class="nav-link nav-items mr-1 " href="#HomeSection" id="navbaritem">
+          <div class="d-flex skeleton">
+            <h1 class="nav-item-colour">Gift cards</h1>
+            <img class="membership-icon"
+              src="https://res.cloudinary.com/drkgjrufs/image/upload/v1712061554/gift-card_1_h9s6eh.png" />
+          </div>
+        </a>
+        <!-- <a class="nav-link nav-items" href="#HolidayPackageSection" id="navbaritem">
+                  <div class="dropdown">
+                      
+                      <button
+                          class="btn btn-transparent border-dark dropbtn d-flex justify-content-between align-items-center">
+                          <i class="fa-solid fa-diamond mr-2 icon5"></i> 
+                          <i class="fa-solid fa-caret-down ml-2 icon5"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                      </div>
+                  </div>
+              </a> -->
+
+        <!-- <a class="nav-link nav-items" href="#FlightBookingSection" id="navbaritem">
+                  <div class="dropdown">
+                      <button class="btn btn-transparent border-dark dropbtn1 d-flex justify-content-center">
+                          <i class="fa-solid fa-diamond icon5 "></i>
+                          <div>
+                              <h1 class="booking-dd m-0">My Bookings</h1>
+                              <p class="booking-desc">Manage your reservations</p>
+                          </div>
+                          <i class="fa-solid fa-caret-down  icon5"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                      </div>
+                  </div>
+              </a> -->
+        <a class="nav-link nav-items" href="#HomeSection" id="navbaritem">
+          <div class="log-in-section skeleton">
+            <i class="fa-solid fa-bars nav-icon"></i>
+            <i class="fa-solid fa-user nav-icon"></i>
+          </div>
+        </a>
+        <!-- <a class="nav-link nav-items" href="#HotelBookingSection" id="navbaritem">
+                  <div class="dropdown">
+                      <button class="btn btn-transparent border-dark dropbtn1 d-flex justify-content-center">
+                          <i class="fa-solid fa-diamond mr-3 icon5 mt-1"></i>
+                          <h1 class="booking-dd">Login or <br> Create account</h1>
+                          <i class="fa-solid fa-caret-down icon5"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                      </div>
+                  </div>
+              </a> -->
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar ends -->
+
+  <!--banner section starts-->
+  <div class="Banner-bg-container mb-3">
+    <div class="fluid-container">
+      <div class="">
+        <div class="banner-img-container background-color-initial" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711105609/Home_Page_Background_Image_ejwpvj.jpg">
+          <div class="row">
+            <div class="col-12  banner-content-large">
+              <div class="banner-content">
+                <h1 class="banner-head skeleton">Discover Your Next Adventure</h1>
+              <p class="banner-desc skeleton">Unlock your path to adventure, start your journey of discovery - where
+                every destination awaits your exploration</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-center-large">
+            <div class="banner-card-container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="d-flex justify-content-between">
+                    <div class="tab">
+                      <button class="banner-tablinks button-selected button skeleton background-color-initial"
+                        onclick="selectTab(event, 'Packages')">Packages</button>
+                      <button class="banner-tablinks button background-color-initial" onclick="selectTab(event, 'Tours')" ><span class="skeleton">Tours</span></button>
+                    </div>
+                  </div>
+                  <div class="bottom-container banner-tabcontent" id="Packages">
+                    <div class="bottom-top-cards">
+                      <button class="hotel-btn mr-3 skeleton-x">
+                        <div>
+                          <p class="top-content m-0 skeleton">Destination</p>
+                          <input class="input-size1 m-0" placeholder="Enter the City" type="input" id="destination" />
+                        </div>
+                      </button>
+                      <!-- <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+    
+                                      <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+                                      Include Date Range Picker script
+                                      <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js">
+                                      </script> -->
+                      <button class="hotel-btn1 mr-3 d-flex justify-content-between align-items-center skeleton-x">
+                        <div class="d-flex flex-column">
+                          <label for="check-in" class="top-content skeleton">Check-in</label>
+                          <input class="input-size" type="date" id="check-in" name="check-in" />
+                        </div>
+                        <div class="center-cont mt-2">
+                          <i class="fa-solid fa-moon night-logo"></i>
+                          <p class="nt-text">1 Night</p>
+                        </div>
+                        <div class="space1 d-flex flex-column">
+                          <label for="check-out" class="top-content skeleton">Check-out</label>
+                          <input class="input-size" type="date" id="check-out" name="check-out" />
+                        </div>
+                      </button>
+                      <button class="hotel-btn mr-3 d-flex justify-content-between skeleton-x">
+                        <div>
+                          <p class="top-content skeleton">Guests and Rooms</p>
+                          <h1 class="bottom-content">2 adults, 0 children, 1 room</h1>
+                        </div>
+                        <i class="fa-solid fa-caret-down "></i>
+                      </button>
+                      <button class="search-btn skeleton-x">
+                        <div class="m-0">
+                          <i class="fa-solid fa-magnifying-glass icon2 m-0 skeleton"></i>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="check-star-container">
+                      <!-- <div class="check-container d-flex mt-1">
+                                          <label for="countary">Citizenship <i
+                                                  class="fa-solid fa-circle-info ml-1 mr-2 mt-1"></i></label>
+                                          <select name="countary" id="countary" class="select-countary mt-1">
+                                              <option value="india">India</option>
+                                              <option value="count1">count1</option>
+                                              <option value="count2">count2</option>
+                                              <option value="count3">count3</option>
+                                          </select>
+                                      </div> -->
+                      <div class="star-rating skeleton">
+                        <h1 class="star-head ml-2">Star Rating </h1>
+                        <div class="star-card" id="star1" onclick="changeColor('star1')">
+                          3 <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="star-card" id="star2" onclick="changeColor('star2')">
+                          4 <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="star-card" id="star3" onclick="changeColor('star3')">
+                          5 <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom-container banner-tabcontent" id="Tours">
+                    <div class="bottom-top-cards">
+                      <button class="hotel-btn mr-3">
+                        <div>
+                          <p class="top-content m-0">Destination</p>
+                          <input class="input-size1 m-0" placeholder="Enter the City" type="input" id="destination" />
+                        </div>
+                      </button>
+                      <!-- <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+    
+                                  <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+                                  Include Date Range Picker script
+                                  <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js">
+                                  </script> -->
+                      <button class="hotel-btn1 mr-3 d-flex justify-content-between align-items-center">
+                        <div class="d-flex flex-column">
+                          <label for="check-in" class="top-content">Check-in</label>
+                          <input class="input-size" type="date" id="check-in" name="check-in" />
+                        </div>
+                        <div class="center-cont mt-2">
+                          <i class="fa-solid fa-moon night-logo"></i>
+                          <p class="nt-text">1 Night</p>
+                        </div>
+                        <div class="space1 d-flex flex-column">
+                          <label for="check-out" class="top-content">Check-out</label>
+                          <input class="input-size" type="date" id="check-out" name="check-out" />
+                        </div>
+                      </button>
+                      <button class="hotel-btn mr-3 d-flex justify-content-between">
+                        <div>
+                          <p class="top-content">Guests and Rooms</p>
+                          <h1 class="bottom-content">2 adults, 0 children, 1 room</h1>
+                        </div>
+                        <i class="fa-solid fa-caret-down "></i>
+                      </button>
+                      <button class="search-btn">
+                        <div class="m-0">
+                          <i class="fa-solid fa-magnifying-glass icon2 m-0"></i>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="check-star-container">
+                      <!-- <div class="check-container d-flex mt-1">
+                                      <label for="countary">Citizenship <i
+                                              class="fa-solid fa-circle-info ml-1 mr-2 mt-1"></i></label>
+                                      <select name="countary" id="countary" class="select-countary mt-1">
+                                          <option value="india">India</option>
+                                          <option value="count1">count1</option>
+                                          <option value="count2">count2</option>
+                                          <option value="count3">count3</option>
+                                      </select>
+                                  </div> -->
+                      <div class="star-rating">
+                        <h1 class="star-head ml-2">Star Rating </h1>
+                        <div class="star-card" id="star1" onclick="changeColor('star1')">
+                          3 <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="star-card" id="star2" onclick="changeColor('star2')">
+                          4 <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="star-card" id="star3" onclick="changeColor('star3')">
+                          5 <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner-footer-large">
+          <div class="footers-container ">
+            <!-- <img id="footer-img" src="https://res.cloudinary.com/dsovyumur/image/upload/v1712898829/Group_25_ovdgse.png" /> -->
+            <!-- <div class="footer-container">
+              <i class="fa-solid fa-shield-halved icon4"></i>
+              <div class="footer">
+                <h1 class="footer-head">Safe & Secured Travel</h1>
+                <p class="footer-desc">Travel with Peace of Mind: Ensuring Your Safety and Security Every Step of the Way
+                </p>
+              </div>
+            </div>
+            <div class="footer-container">
+              <i class="fa-solid fa-headset icon4"></i>
+              <div class="footer">
+                <h1 class="footer-head">24/7 Travel Assistance</h1>
+                <p class="footer-desc">Travel with Peace of Mind: Ensuring Your Safety and Security Every Step of the Way
+                </p>
+              </div>
+            </div>
+            <div class="footer-container">
+              <i class="fa-solid fa-pen-to-square icon4"></i>
+              <div class="footer">
+                <h1 class="footer-head">Customized Holidays</h1>
+                <p class="footer-desc">Travel with Peace of Mind: Ensuring Your Safety and Security Every Step of the Way
+                </p>
+              </div>
+            </div> -->
+            <!-- <div class="footer-container1">
+                    <i class="fa-solid fa-diamond icon4"></i>
+                    <div class="num-container d-flex">
+                        <h1 class="avail-text">AVAIL</h1>
+                        <div class="text-container">
+                            <p class="num-text">HOLIDAY <br> FREE</p>
+                        </div>
+                    </div>
+                </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--banner section ends-->
+
+  <!--Trending Indian Destinations section start-->
+  <div class="large-devices-center-content mb-5">
+    <div class="TrendingIndianDestination-Container" id="TrendingIndianDestinationsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h1 class="TID-heading m-0 skeleton">Travellers' Favourite Indian Trips</h1>
+                <div class="d-flex mb-0">
+                  <div class="d-flex align-items-center mr-5">
+                    <i class="fa-solid fa-building skeleton"></i>
+                    <p class="ml-2 mt-3 TID-text skeleton">Quality Checked Hotels</p>
+                  </div>
+                  <div class="d-flex align-items-center mr-5 ">
+                    <i class="fa-solid fa-building skeleton"></i>
+                    <p class="ml-2 mt-3 TID-text skeleton">Full Day Tours</p>
+                  </div>
+                  <div class="d-flex align-items-center mr-5 ">
+                    <i class="fa-solid fa-building skeleton"></i>
+                    <p class="ml-2 mt-3 TID-text skeleton">Gaurantee Stays</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-cards-wrappers-container">
+          <div class="tab-btn-wrapper-container mt-0">
+            <div class="tab-wrapper m-0">
+              <ul class="tabs-box">
+                <li class="tab india-tablinks TID-button-selected skeleton" onclick="selectState(event, 'Kerala')">Kerala</li>
+                <li class="tab india-tablinks skeleton" onclick="selectState(event, 'Karnataka')">Karnataka</li>
+                <li class="tab india-tablinks skeleton" onclick="selectState(event, 'Tamilnadu')">Tamil Nadu</li>
+                <li class="tab india-tablinks skeleton" onclick="selectState(event, 'Rajasthan')">Rajasthan</li>
+                <li class="tab india-tablinks skeleton" onclick="selectState(event, 'Gujarat')">Gujarat</li>
+                <li class="tab india-tablinks skeleton" onclick="selectState(event, 'Himachal')">Himachal</li>
+                <li class="tab india-tablinks skeleton">Explore More</li>
+              </ul>
+            </div>
+            <div class="left-right-container ">
+              <div class="icon"><i id="left" class="fa-solid fa-angle-left d-none"></i></div>
+              <div class="icon"><i id="right" class="fa-solid fa-angle-right d-none"></i></div>
+            </div>
+          </div>
+          <div class="wrapper india-tabcontent" id="Kerala">
+            <i id="left" class="fa-solid fas fa-angle-left left-icon d-none"></i>
+            <ul class="carousel">
+              <li class="card shade TID-bg-img1 shadow d-flex flex-column justify-content-between align-items-start" onclick="navigateToPage()" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_5_lkflsu.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon </p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0 skeleton">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                              d="M0 64C0 46.3 14.3 32 32 32H96h16H288c17.7 0 32 14.3 32 32s-14.3 32-32 32H231.8c9.6 14.4 16.7 30.6 20.7 48H288c17.7 0 32 14.3 32 32s-14.3 32-32 32H252.4c-13.2 58.3-61.9 103.2-122.2 110.9L274.6 422c14.4 10.3 17.7 30.3 7.4 44.6s-30.3 17.7-44.6 7.4L13.4 314C2.1 306-2.7 291.5 1.5 278.2S18.1 256 32 256h80c32.8 0 61-19.7 73.3-48H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H185.3C173 115.7 144.8 96 112 96H96 32C14.3 96 0 81.7 0 64z" />
+                            </svg>
+                          <h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card shade TID-bg-img2 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_2_ohjghn.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon </p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card shade TID-bg-img3 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_3_iwqn8t.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon</p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card shade TID-bg-img4 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_4_rpthhf.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon</p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0 ">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card shade TID-bg-img1 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_5_lkflsu.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon</p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card shade TID-bg-img2 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_2_ohjghn.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon</p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card1 TID-details-card-img d-flex justify-content-end" id="MPID-details-card" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Rectangle_1_copy_zkqx91.jpg">
+                <button class="btn btn-light m-5 h-40 skeleton">Explore More</button>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right right-icon d-none"></i>
+          </div>
+          <div class="wrapper1 india-tabcontent" id="Karnataka">
+            <i id="left-icon" class="fa-solid  fas fa-angle-left left-icon"></i>
+            <ul class="carousel1">
+              <li class="card1 shade TID-bg-img1 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_5_lkflsu.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon </p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                              d="M0 64C0 46.3 14.3 32 32 32H96h16H288c17.7 0 32 14.3 32 32s-14.3 32-32 32H231.8c9.6 14.4 16.7 30.6 20.7 48H288c17.7 0 32 14.3 32 32s-14.3 32-32 32H252.4c-13.2 58.3-61.9 103.2-122.2 110.9L274.6 422c14.4 10.3 17.7 30.3 7.4 44.6s-30.3 17.7-44.6 7.4L13.4 314C2.1 306-2.7 291.5 1.5 278.2S18.1 256 32 256h80c32.8 0 61-19.7 73.3-48H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H185.3C173 115.7 144.8 96 112 96H96 32C14.3 96 0 81.7 0 64z" />
+                            </svg>
+                          <h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card1 shade TID-bg-img2 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_2_ohjghn.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon </p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card1 shade TID-bg-img3 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_3_iwqn8t.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon</p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card1 shade TID-bg-img4 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_4_rpthhf.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon</p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card1 shade TID-bg-img1 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_5_lkflsu.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon</p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card1 shade TID-bg-img2 shadow d-flex flex-column align-items-start justify-content-between" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Image_2_ohjghn.jpg">
+                <p class="TID-card-family skeleton">Family | Honeymoon</p>
+                <div class="pl-3 d-flex align-items-end">
+                  <div>
+                    <div class="d-flex align-items-center mb-0 skeleton">
+                      <p class="TID-rating d-flex justify-content-center align-items-center mb-1 mr-2">4.3</p>
+                      <p class="TID-rating-text mb-0">Amazing - 36 Reviews</p>
+                    </div>
+                    <div class="mt-2">
+                      <h1 class="TID-card-title m-0 skeleton">Surprising Kerala</h1>
+                      <!-- <p class="TID-card-desc1">2N Munnar | 1N Thekkady</p> -->
+                    </div>
+                    <!-- <p class="TID-card-family mb-1">Family | Honeymoon</p> -->
+                    <p class="TID-card-desc2 text-light mb-1 skeleton">4 Days Trip</p>
+                    <div class="d-flex">
+                      <div class="d-flex TID-card-price-container skeleton">
+                        <p class="text-light">Rs.<h1 class="TID-card-price ">19,999</h1>
+                        </p>
+                        <p class="TID-card-scratched-price mt-2 ml-1">Rs.20,999</p>
+                      </div>
+                      <!-- <img class="small-arrow" src="https://res.cloudinary.com/dsovyumur/image/upload/v1711006511/Round_Arrow_-_White_clluat.png" /> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="card1 TID-details-card-img d-flex justify-content-end" id="MPID-details-card" data-bg-image="https://res.cloudinary.com/dsovyumur/image/upload/v1711012512/Rectangle_1_copy_zkqx91.jpg">
+                <button class="btn btn-light m-5 skeleton">Explore More</button>
+              </li>
+            </ul>
+            <i id="right1" class="fa-solid fas fa-angle-right"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--Trending Indian Destinations section ends-->
+  <div class="fluid-container mt-0 p-5 mb-5 footer-banner-loading-container">
+        <div class="row">
+          <div class="container footer-inner-banner-container">
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="footer-banner-p1 skeleton">TRAVEL GIFT CARD</p>
+                <h1 class="footer-banner-head skeleton">A Card to gift your loved one's</h1>
+                <p class="footer-banner-p2 skeleton">​To make your every moment memorable choose our Travel Gift Card, one point solution for unforgettable memories. Our Gift card is filled with bundle of surprises for a lifetime. </p>
+                <p class="learn-more-item mt-5 d-none">Learn More &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
+              </div>
+              <div class="col-lg-6 footer-banner-img-container skeleton">
+                <img src="https://static.wixstatic.com/media/2d34e5_c7e16499319249ae8ef382487507d23c~mv2.jpeg/v1/fill/w_543,h_343,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Gift%20Card1.jpeg" alt="img">
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+ <div class="fluid-container w-100 footer-container">
+     <p class="skeleton">Copyright © 2024  GOGAGA HOLIDAYS PRIVATE LIMITED. All Rights Reserved</p>
+ </div>
+</body>
+
+</html>
