@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 function navigateToPage() {
-    window.location.href = "http://127.0.0.1:5500/function.html";
+    window.location.href = "https://ganesh-vajrala.github.io/gogaga2/function.html";
 }
 
 
