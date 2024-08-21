@@ -34,7 +34,6 @@ The skeleton loader is a lightweight placeholder that appears while the actual c
 - **Lazy Loading:** Images and text content are loaded lazily, improving overall performance.
 
 ### Implementation:
-- **React.js:** The skeleton loader is implemented using React components with conditional rendering.
-- **CSS:** Styling is applied to create the skeleton effect, with placeholders for various types of content.
+**HTML, CSS, and JavaScript:** The skeleton loader is implemented using basic web technologies with conditional rendering.
 
 Feel free to explore the code and experiment with the skeleton loading feature. If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
