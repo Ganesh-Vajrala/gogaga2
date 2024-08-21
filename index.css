@@ -2343,6 +2343,15 @@ li {
   margin-left: 20px;
   box-shadow: rgba(49, 43, 47, 0.4) 5px 5px, rgba(52, 49, 51, 0.3) 10px 10px, rgba(50, 48, 49, 0.2) 15px 15px, rgba(56, 55, 55, 0.1) 20px 20px, rgba(92, 82, 88, 0.05) 25px 25px;
 }
+
+@media (max-width: 767px) {
+  .footer-banner-img-container img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+}
+
 .learn-more-item{
   color: #fff;
   font-size: 16px;
