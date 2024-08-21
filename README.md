@@ -4,7 +4,7 @@ This project includes web pages with a manually implemented skeleton loader, des
 
 ## Watch the Demo
 
-[![Watch the Demo](https://drive.google.com/file/d/1ty7jPFU640lfSiWDfBQyABw29lnO0g6p/view)](VIDEO_LINK)
+[![Watch the Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1ty7jPFU640lfSiWDfBQyABw29lnO0g6p/view)
 
 Click the link above to watch a video demo of the skeleton loading feature.
 
