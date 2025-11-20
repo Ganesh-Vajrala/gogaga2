@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 function navigateToPage() {
-    window.location.href = "https://ganesh-vajrala.github.io/gogaga2/function.html";
+    window.location.href = "https://ganesh-vajrala.github.io/skeleton-loading-front-end-project/function.html";
 }
 
 
